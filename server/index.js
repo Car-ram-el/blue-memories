@@ -12,7 +12,7 @@ app.use(bodyParser.json({limit:"30mb",extended:true})); // for images of larger 
 app.use(bodyParser.urlencoded({limit:"30mb",extended:true})); // json like xp with url encoded format
 app.use(cors());
 app.use('/posts',postRoutes);
-
+app.get('/',(req,res)=>res.send("hello memories."));
 // database
 const PORT=process.env.PORT || 5000;
 mongoose.connect(process.env.CONNECTION_URL)
