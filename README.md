@@ -8,3 +8,6 @@ Runs the app in the development mode.
 To do:<br>
 Create a .env file in server dir. Add 
 PORT and CONNECTION_URL string in it.
+
+Deployed the frontend on Netflix.
+Url: https://blue-memories.netlify.app/
